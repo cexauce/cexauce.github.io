@@ -25,5 +25,5 @@ latest_posts:
 ---
 
 I am an AI Research Engineer at Inria, within the [Multispeech](https://team.inria.fr/multispeech/home/) team. 
-I am currently working Audio-visual Fusion for Unsupervised Speech Enhancement. 
+I am currently working on Audio-visual Fusion for Unsupervised Speech Enhancement. 
 I did a master's in AI, Data Science and Machine Learning at Halmstad University (Sweden) and a master's in Electronics and telecomunication at ENSIL (Limoges, France)
