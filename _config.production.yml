@@ -1,7 +1,6 @@
 # Overrides applied on top of _config.yml by .github/workflows/deploy.yml.
-# Keeps al-folio sample content available to local builds and integration tests,
-# but out of the published site. To publish one of these pages or collections,
-# remove it from the list below.
+# Keeps the al-folio sample posts available to local builds and integration tests,
+# but out of the published site.
 
 external_sources: []
 
@@ -23,27 +22,16 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - gems/
   - migrations/
   - vendor
-  # al-folio sample content
-  - _pages/cv.md
-  - _pages/dropdown_disabled.md
-  - _pages/plugins_disabled.md
-  - _pages/profiles_disabled.md
-  - _pages/publications.md # the paper list is shown on the about page
+  # al-folio sample posts used by the integration tests
   - _posts/
-  - _books/
-  - _news/
-  - _projects/
-  - _teachings/
   # repo files
   - AGENTS.md
   - CLAUDE.md
-  - prof_pic.jpg
   - requirements.txt
   - test/

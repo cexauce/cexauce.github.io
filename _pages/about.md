@@ -41,8 +41,15 @@ latest_posts:
 </script>
 
 I am an AI Research Engineer at Inria, within the [Multispeech](https://team.inria.fr/multispeech/home/) team. 
-I am currently working on Audio-visual Fusion for Unsupervised Speech Enhancement. 
-I did a master's in AI, Data Science and Machine Learning at Halmstad University (Sweden) and a master's in Electronics and Telecommunications at ENSIL (Limoges, France).
+I am currently working on Audio-visual Fusion for Unsupervised Speech Enhancement using Diffusion Models with Mostafa Sadeghi, Romain Serizel and Jean-Eudes Ayilo.
+
+I previously worked on Deep Reinforcement Learning and Unsupervised Classification.
+
+I also worked as a Software Engineer for several years in image processing, embedded systems and software development.
+
+I did a master's in [AI, Data Science and Machine Learning](https://www.hh.se/english/education/programmes/masters-programme-in-information-technology---data-science-ai-and-machine-learning.html) at Halmstad University (Sweden) and a master's in [Electronics and Telecommunications](https://www.ensil-ensci.unilim.fr/formations/cycle-ingenieur-en-alternance/elt-electronique-et-telecommunications/) at ENSIL (Limoges, France).
+
+
 
 <h2 style="clear: both">publications</h2>
 
