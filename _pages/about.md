@@ -6,7 +6,7 @@ subtitle: <a href='https://www.inria.fr/'>Inria</a>
 
 profile:
   align: right
-  image: prof_pic_round.jpg # must be square to display as a true circle
+  image: prof_pic_round.png # circular cut-out with transparent corners
   image_circular: true # crops the image to make it circular
 
 
@@ -23,6 +23,22 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<style>
+  /* One-page site: drop the "about" menu link and show the theme toggle on every screen size. */
+  #navbar .nav-item, #navbar .navbar-toggler { display: none; }
+  #navbar .navbar-nav { flex-direction: row; justify-content: flex-end; width: 100%; }
+
+  /* Publication miniature on the left, details on the right. */
+  @media (min-width: 576px) {
+    .publications .abbr { flex: 0 0 33.33%; max-width: 33.33%; }
+    .publications .abbr + div { flex: 0 0 66.67%; max-width: 66.67%; }
+  }
+</style>
+
+<script>
+  document.getElementById("navbarNav").classList.add("show");
+</script>
 
 I am an AI Research Engineer at Inria, within the [Multispeech](https://team.inria.fr/multispeech/home/) team. 
 I am currently working on Audio-visual Fusion for Unsupervised Speech Enhancement. 
