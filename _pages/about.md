@@ -6,8 +6,8 @@ subtitle: <a href='https://www.inria.fr/'>Inria</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic_round.jpg # must be square to display as a true circle
+  image_circular: true # crops the image to make it circular
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -27,3 +27,11 @@ latest_posts:
 I am an AI Research Engineer at Inria, within the [Multispeech](https://team.inria.fr/multispeech/home/) team. 
 I am currently working on Audio-visual Fusion for Unsupervised Speech Enhancement. 
 I did a master's in AI, Data Science and Machine Learning at Halmstad University (Sweden) and a master's in Electronics and Telecommunications at ENSIL (Limoges, France).
+
+<h2 style="clear: both">publications</h2>
+
+<div class="publications">
+
+{% bibliography --group_by none %}
+
+</div>

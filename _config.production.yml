@@ -35,6 +35,7 @@ exclude:
   - _pages/dropdown_disabled.md
   - _pages/plugins_disabled.md
   - _pages/profiles_disabled.md
+  - _pages/publications.md # the paper list is shown on the about page
   - _posts/
   - _books/
   - _news/
