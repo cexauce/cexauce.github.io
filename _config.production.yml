@@ -1,0 +1,48 @@
+# Overrides applied on top of _config.yml by .github/workflows/deploy.yml.
+# Keeps al-folio sample content available to local builds and integration tests,
+# but out of the published site. To publish one of these pages or collections,
+# remove it from the list below.
+
+external_sources: []
+
+# Jekyll replaces this list instead of merging it, so it repeats the exclude list from _config.yml.
+exclude:
+  - al-folio-upgrade-report.md
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - docs/
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - gems/
+  - migrations/
+  - vendor
+  # al-folio sample content
+  - _pages/cv.md
+  - _pages/dropdown_disabled.md
+  - _pages/plugins_disabled.md
+  - _pages/profiles_disabled.md
+  - _posts/
+  - _books/
+  - _news/
+  - _projects/
+  - _teachings/
+  # repo files
+  - AGENTS.md
+  - CLAUDE.md
+  - prof_pic.jpg
+  - requirements.txt
+  - test/
